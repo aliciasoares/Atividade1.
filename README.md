@@ -22,9 +22,9 @@ C:\>CLS <enter>
 ```
 
 
-### MOVE
+### MOVE;
 O comando MOVE é utilizado para movimentar um arquivo de uma pasta a outra. Na prática, ele funciona como o comando recortar e colar, pois ele copia para a pasta de destino e exclui da pasta original.
-#### EXEMPLO
+#### Exemplo;
 ```markdown
 C:\>CLS <enter>
 ```
@@ -33,14 +33,14 @@ C:\>CLS <enter>
 O comando "del" é utilizado para excluir arquivos. Você pode especificar o nome do arquivo a ser excluído, como "del 
 arquivo.txt".
 
-#### Exemplo: 
+#### Exemplo;
 ```markdown
 del [caminho]\nome_do_arquivo
 ```
 
 
 
-### MKDIR:
+### MKDIR;
 Com o comando "mkdir" (Make Directory), você pode criar um novo diretório.
 
 Exemplo: 
@@ -48,7 +48,7 @@ Exemplo:
 "mkdir C:\NovaPasta" criará uma nova pasta chamada "NovaPasta" no disco C.
 
 ```
-### CD:
+### CD;
  É usado para navegar entre diretórios no sistema de arquivos
 #### Exemplo:
  
@@ -56,7 +56,7 @@ Exemplo:
 "cd C:\Pasta" leva você para a pasta chamada "Pasta" localizada no disco C. 
 Você também pode usar ".." para retornar um nível acima no diretório atual
 ```
-### DIR:
+### DIR;
 é usado para listar o conteúdo de um diretório. Se o caminho não for especificado, o comando listará o conteúdo do diretório atual. 
 #### Exemplo:
 ```markdown
@@ -64,7 +64,7 @@ dir [caminho]
 ```
 **[caminho]**: O diretório cujos arquivos e pastas você deseja listar.
 
-### TYPE
+### TYPE;
 O comando é usado para exibir o conteúdo de arquivos de texto diretamente no prompt de comando. 
 Por exemplo, você pode usar "type arquivo.txt" para exibir o conteúdo do arquivo de texto chamado "arquivo.txt".
 
@@ -72,7 +72,7 @@ Por exemplo, você pode usar "type arquivo.txt" para exibir o conteúdo do arqui
 C:\>TYPE C:\windows\directx.txt
 C:\>TYPE C:\texto.txt
 ```
-### RMDIR(remove directory):
+### RMDIR;
 É usado para remover diretórios vazios. O diretório tem que estar vazio antes de ser excluído.
 #### Exemplo:
 ```markdown
