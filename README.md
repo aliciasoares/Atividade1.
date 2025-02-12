@@ -1,21 +1,21 @@
 # Comandos Batch
 ![Comandos](https://tm.ibxk.com.br/2017/07/28/28181329421599.jpg?ims=1200x675)
 ## O que é?
- É uma forma de programação de computador que permite automatizar tarefas repetitivas no sistema operacional Windows.
+ É uma forma de programação de computador que permite *automatizar tarefas repetitivas* no sistema operacional Windows.
 ## Como funciona?
- Funciona interpretando comandos contidos em arquivos .bat pelo interpretador de comandos do Windows. Quando o arquivo é executado, o interpretador processa cada linha e executa os comandos correspondentes. Esses comandos são semelhantes aos usados no prompt de comando do Windows e permitem realizar tarefas como criar pastas, copiar arquivos, executar programas e configurar variáveis de ambiente.
+ Funciona interpretando comandos contidos em arquivos **.bat** pelo interpretador de comandos do Windows. Quando o arquivo é executado, o interpretador processa cada linha e executa os comandos correspondentes. Esses comandos são semelhantes aos usados no *prompt de comando do Windows* e permitem realizar tarefas como **criar pastas, copiar arquivos, executar programas e configurar variáveis de ambiente.**
 
 ### ECHO:
-O comando echo é utilizado para exibir mensagens ou valores no terminal ou na tela durante a execução de um script.
+O comando *echo* é utilizado para **exibir** mensagens ou valores no terminal ou na tela durante a execução de um script.
 #### Exemplo;
-Você pode redirecionar a saída do comando echo para um arquivo usando o operador “>”. Por exemplo:
+Você pode redirecionar a saída do comando echo para um arquivo usando o operador “>”. 
 ```markdown
 echo "Hello, World!" > hello.txt
 ```
 
 
 ### CLS:
-O comando CLS é utilizado para limpar a tela do prompt do Windows.
+O comando *cls* é utilizado para **limpar** a tela do prompt do Windows.
 #### Exemplo:
 ```markdown
 C:\>CLS <enter>
@@ -23,14 +23,14 @@ C:\>CLS <enter>
 
 
 ### MOVE;
-O comando MOVE é utilizado para movimentar um arquivo de uma pasta a outra. Na prática, ele funciona como o comando recortar e colar, pois ele copia para a pasta de destino e exclui da pasta original.
+O comando *move* é utilizado para **movimentar um arquivo** de uma pasta a outra. Na prática, ele funciona como o comando *recortar e colar*, pois ele copia para a pasta de destino e exclui da pasta original.
 #### Exemplo;
 ```markdown
 C:\>CLS <enter>
 ```
 
 ### DEL:
-O comando "del" é utilizado para excluir arquivos. Você pode especificar o nome do arquivo a ser excluído, como "del 
+O comando *"del"* é utilizado para **excluir arquivos**. Você pode especificar o nome do arquivo a ser excluído, como "del 
 arquivo.txt".
 
 #### Exemplo;
@@ -41,7 +41,7 @@ del [caminho]\nome_do_arquivo
 
 
 ### MKDIR;
-Com o comando "mkdir" (Make Directory), você pode criar um novo diretório.
+Com o comando *"mkdir"* (Make Directory), você pode criar um **novo diretório.**
 
 Exemplo: 
 ```markdown
@@ -49,7 +49,7 @@ Exemplo:
 
 ```
 ### CD;
- É usado para navegar entre diretórios no sistema de arquivos
+ É usado para **navegar** entre diretórios no sistema de arquivos
 #### Exemplo:
  
 ```markdown
@@ -57,7 +57,7 @@ Exemplo:
 Você também pode usar ".." para retornar um nível acima no diretório atual
 ```
 ### DIR;
-é usado para listar o conteúdo de um diretório. Se o caminho não for especificado, o comando listará o conteúdo do diretório atual. 
+é usado para **listar o conteúdo** de um diretório. Se o caminho não for especificado, o comando listará o conteúdo do diretório atual. 
 #### Exemplo:
 ```markdown
 dir [caminho]
@@ -65,7 +65,7 @@ dir [caminho]
 **[caminho]**: O diretório cujos arquivos e pastas você deseja listar.
 
 ### TYPE;
-O comando é usado para exibir o conteúdo de arquivos de texto diretamente no prompt de comando. 
+O comando é usado para **exibir** o conteúdo de arquivos de texto diretamente no prompt de comando. 
 Por exemplo, você pode usar "type arquivo.txt" para exibir o conteúdo do arquivo de texto chamado "arquivo.txt".
 
 ```markdown
