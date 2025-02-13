@@ -1,17 +1,28 @@
 # Comandos Batch
 ![Comandos](https://tm.ibxk.com.br/2017/07/28/28181329421599.jpg?ims=1200x675)
 ## O que é?
- É uma forma de programação de computador que permite *automatizar tarefas repetitivas* no sistema operacional Windows.
+ É uma forma de programação de computador que permite *automatizar tarefas repetitivas* no sistema operacional Windows. Ou seja, com ele, é possível criar scripts que executam uma série de comandos em sequência, sem a necessidade de interação manual do usuário.
+ 
 ## Como funciona?
  Funciona interpretando comandos contidos em arquivos **.bat** pelo interpretador de comandos do Windows. Quando o arquivo é executado, o interpretador processa cada linha e executa os comandos correspondentes. Esses comandos são semelhantes aos usados no *prompt de comando do Windows* e permitem realizar tarefas como **criar pastas, copiar arquivos, executar programas e configurar variáveis de ambiente.**
 
+![Comandos](https://blog.betrybe.com/wp-content/uploads/2021/06/comandos-bat.jpg)
+## Lista de Comandos;
+
 ### ECHO:
-O comando *echo* é utilizado para **exibir** mensagens ou valores no terminal ou na tela durante a execução de um script.
+O comando *echo* é utilizado para **exibir** mensagens ou valores no terminal ou na tela durante a execução de um script. Ele também pode ser usado para **criar arquivos e diretórios, testar e depurar scripts e comandos, formatar e exibir mensagens e gerar saída para outros comandos ou programas.**
+
 #### Exemplo;
-Você pode redirecionar a saída do comando echo para um arquivo usando o operador “>”. 
+Você pode redirecionar a saída do comando echo para um arquivo usando o operador **“>”.** Quando você usa esse operador junto com o comando *echo*, ele **cria um arquivo novo** (caso o arquivo não exista) ou **sobrescreve** o conteúdo de um arquivo já existente.
 ```markdown
 echo "Hello, World!" > hello.txt
 ```
+#### Outro exemplo;
+```markdown
+echo [mensagem] >> arquivo.txt (Adiciona uma mensagem a um arquivo existente.)
+```
+O operador **">>"** é utilizado para adicionar a saída de um comando ao final de um arquivo, **sem sobrescrevê-lo.** Ou seja, ele *preserva* o conteúdo anterior do arquivo e apenas adiciona a nova mensagem ao final.
+
 
 
 ### CLS:
@@ -28,6 +39,8 @@ O comando *move* é utilizado para **movimentar um arquivo** de uma pasta a outr
 ```markdown
 move C:\Arquivos\documento.txt C:\Backup\
 ```
+O arquivo *documento.txt* que está localizado em C:\Arquivos\ será **movido** para a pasta C:\Backup\.
+Após a execução do comando, o arquivo será **removido** da pasta Arquivos e estará **disponível** apenas em Backup.
 
 ### DEL:
 O comando *"del"* é utilizado para **excluir arquivos**. Você pode especificar o nome do arquivo a ser excluído, como "del 
@@ -57,12 +70,12 @@ Exemplo:
 Você também pode usar ".." para retornar um nível acima no diretório atual
 ```
 ### DIR;
-é usado para **listar o conteúdo** de um diretório. Se o caminho não for especificado, o comando listará o conteúdo do diretório atual. 
+É usado para **listar o conteúdo** de um diretório. Se o caminho não for especificado, o comando listará o conteúdo do diretório atual. 
 #### Exemplo:
 ```markdown
-dir [caminho]
+dir C:\Arquivos
 ```
-**[caminho]**: O diretório cujos arquivos e pastas você deseja listar.
+Neste exemplo, ele listará o conteúdo da pasta **Arquivos** no diretório C:\.
 
 ### TYPE;
 O comando é usado para **exibir** o conteúdo de arquivos de texto diretamente no prompt de comando. 
@@ -73,7 +86,7 @@ C:\>TYPE C:\windows\directx.txt
 C:\>TYPE C:\texto.txt
 ```
 ### RMDIR;
-É usado para remover diretórios vazios. O diretório tem que estar vazio antes de ser excluído.
+É usado para remover diretórios vazios. O qual deve estar vazio antes de ser excluído.
 #### Exemplo:
 ```markdown
 rmdir [nome_do_diretorio]
