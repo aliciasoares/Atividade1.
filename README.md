@@ -26,7 +26,7 @@ C:\>CLS <enter>
 O comando *move* é utilizado para **movimentar um arquivo** de uma pasta a outra. Na prática, ele funciona como o comando *recortar e colar*, pois ele copia para a pasta de destino e exclui da pasta original.
 #### Exemplo;
 ```markdown
-C:\>CLS <enter>
+move C:\Arquivos\documento.txt C:\Backup\
 ```
 
 ### DEL:
