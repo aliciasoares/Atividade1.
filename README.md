@@ -88,7 +88,7 @@ rmdir /s pasta_com_conteudo
 ```
 
 ### RENAME
-O comando rename renomeia o arquivo ou o diretório.
+O comando *rename* **renomeia** o arquivo ou o diretório.
 #### Exemplo: 
 ```markdown
 rename [caminho]\nome_antigo nome_novo
